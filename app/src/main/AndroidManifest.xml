@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AMIYA"
+        tools:targetApi="31">
+        <activity
+            android:name=".SORA"
+            android:exported="false" />
+        <activity
+            android:name=".MYRTLE"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".EYJAFJALLA"
+            android:exported="false" />
+        <activity
+            android:name=".LAPPLAND"
+            android:exported="false" />
+        <activity
+            android:name=".EXUSIAI"
+            android:exported="false" />
+        <activity
+            android:name=".KROOS"
+            android:exported="false" />
+        <activity
+            android:name=".MELANTHA"
+            android:exported="false" />
+        <activity
+            android:name=".PROJEKTRED"
+            android:exported="false" />
+        <activity
+            android:name=".TEXAS"
+            android:exported="false" />
+        <activity
+            android:name=".mudrock"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
